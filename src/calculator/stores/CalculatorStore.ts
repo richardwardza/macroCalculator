@@ -33,6 +33,7 @@ export class CalculatorStore {
     private carbsToGrams: number = 4;
     private proteinToGrams: number = 4;
     private fatToGrams: number = 9;
+    // private alcoholToGrams: number = 7;
 
     @observable public weight: number = 90;
     @observable public goal: TGoal = "maintain"

@@ -3,7 +3,7 @@ import * as ReactDOM from "react-dom";
 import { AppContainer } from "react-hot-loader";
 import { CalculatorStore } from './calculator/stores/CalculatorStore'
 
-import { App } from "./routes";
+import { App } from "./app";
 
 const calculatorStore: CalculatorStore = new CalculatorStore()
 

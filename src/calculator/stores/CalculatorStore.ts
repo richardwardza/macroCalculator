@@ -28,7 +28,6 @@ const caloriePercentages: {[k:string]: {[k:string]: number[]}} = {
 
 
 export class CalculatorStore {
-    // private poundToKg: number = 0.453592;
     private kgToPound: number = 2.20462;
     private calorieFactor: number = 16;
     private carbsToGrams: number = 4;
